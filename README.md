@@ -42,3 +42,5 @@ The folder structure should look like this
 ---
 
 ![Screenshot](./design/poly.jpg)
+
+** Banner generated with AI
