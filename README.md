@@ -38,3 +38,5 @@ The folder structure should look like this
     ```shell
     pharmageddon predict --graph <path to polypharmacy graph> --drugs <drug1> <drug2>  [--checkpoint <path_to_model> --effects <effect1> <effect2>]
     ```
+
+![Screenshot](./design/poly.jpg)
