@@ -7,8 +7,8 @@
 
 1. Install Dependencies: `pip install poetry`
 
-2. Download data and models here: https://drive.google.com/file/d/1hinxrf1u1hMRsR6_g1fP84wumLJKvKce/view?usp=sharing\
-The folder structure should look like this
+2. Download data and models here: https://drive.google.com/file/d/1hinxrf1u1hMRsR6_g1fP84wumLJKvKce/view?usp=sharing \
+The folder structure should look like this:
 ```
 ├── data <-- You added this from the google drive link
 │   └── ...
