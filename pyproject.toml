@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "src"
+version = "0.9.0"
+description = "Predicting Polypharmacy with Precission"
+authors = ["David Wageman", "Cheng-Wei Liao", "Finn Lueth", "Julius Schmidt"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+numpy = "^1.26.1"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+torch = "^2.2.0"
+tqdm = "^4.66.2"
+scikit-learn = "^1.4.1.post1"
+#torch-geometric = "2.3.1"
+polars = "^0.20.10"
+streamlit = "^1.31.1"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.7"
+flake8-pyproject = "^1.2.3"
+jupyterlab = "^4.0.8"
+jupyter = "^1.0.0"
+
+[tool.flake8]
+max-line-length = 128
+ignore = ["E501"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = ["poetry.core.masonry.api", "setuptools.build_meta"]
+
+[tool.poetry.scripts]
+pharmageddon = "src.main:main"
