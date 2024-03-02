@@ -2,7 +2,6 @@
 name = "src"
 version = "0.9.0"
 description = "Predicting Polypharmacy with Precission"
-authors = ["David Wageman", "Cheng-Wei Liao", "Finn Lueth", "Julius Schmidt"]
 readme = "README.md"
 packages = [{include = "src"}]
 
