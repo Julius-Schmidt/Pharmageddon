@@ -2,6 +2,8 @@
 ![Screenshot](./design/header.png)
 
 ---
+# Check out our promotion video
+https://www.youtube.com/watch?v=pMcoeFpf4oM
 
 # Pharmageddon
 
